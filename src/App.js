@@ -24,7 +24,9 @@ function App() {
   return (
     <div className="App">
       <button
-        onClick={() => window.location.assign("github.com")}
+        onClick={() =>
+          window.location.assign("https://github.com/Anush-DP/react-notes-app")
+        }
         className="source-code"
       >{`<Code />`}</button>
       <h1 className="heading">Simple Notes App</h1>
