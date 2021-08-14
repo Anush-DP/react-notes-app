@@ -1,0 +1,47 @@
+.input-box-view {
+    text-align: center;
+    padding: 10px;
+    background: #f8f8f8;
+    position: relative;
+    width: 250px;
+    margin: 2px auto;
+    border: 2px solid #cacaca
+}
+.input-box-header, .input-box-body {
+    display: block;
+    margin: 5px auto;
+}
+.input-box-header {
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+.input-box-body{
+    width: 243px;
+}
+.input-box-button{
+    /* position: relative;
+    float: right; */
+    cursor: pointer;
+    outline: none;
+    /* margin: 2px; */
+    appearance: none;
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.input-box-button-icon {
+    border: 2px solid #777777;
+    fill: #777777;
+    margin: 2px;
+    height: 25px;
+    width: 25px;
+}
+.input-box-button-icon:hover {
+    border: 2px solid black ;
+    fill: black;
+}
+.input-box-button-icon:active {
+    fill: black;
+}
